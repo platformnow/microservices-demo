@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: loadgenerator
+  annotations:
+    backstage.io/kubernetes-id: loadgenerator
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: platformnow/microservices-demo
+spec:
+  type: other
+  system: microservices-demo
+  lifecycle: experimental
+  owner: group:platformnow/test
