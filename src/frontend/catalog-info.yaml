@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: shipping-service
+  annotations:
+    backstage.io/kubernetes-id: shipping-service
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: platformnow/microservices-demo
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:platformnow/frontend
