@@ -10,3 +10,4 @@ spec:
   type: website
   lifecycle: experimental
   owner: group:platformnow/frontend
+  system: microservices-demo
