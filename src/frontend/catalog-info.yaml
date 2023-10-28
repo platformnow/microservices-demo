@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: frontend
+  annotations:
+    backstage.io/kubernetes-id: frontend
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: platformnow/microservices-demo
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:platformnow/frontend
